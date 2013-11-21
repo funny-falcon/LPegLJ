@@ -446,6 +446,7 @@ local function getfirst(tree, follow, index)
         assert(false)
     end
 end
+jit.off(getfirst)
 
 
 -- If it returns true, then pattern can fail only depending on the next
